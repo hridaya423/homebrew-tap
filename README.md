@@ -4,5 +4,5 @@ Homebrew formulae for [phonedriver](https://github.com/hridaya423/phonedriver) a
 
 ```sh
 brew install hridaya423/tap/phonedriver
-brew install --cask hridaya423/tap/foundry
+brew install --cask hridaya423/tap/hridya-foundry
 ```

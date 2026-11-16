@@ -1,4 +1,4 @@
-cask "foundry" do
+cask "hridya-foundry" do
   version "1.4.0"
   sha256 "311b3c93086b0cdc3782cec5d6514708f90dbddeeca7f4cb6c1e9db8e9239aaa"
 

@@ -1,25 +1,25 @@
 class Phonedriver < Formula
   desc "phonedriver is an open-source MCP server and CLI that lets AI agents like Claude Code see and control Android and iOS phones."
   homepage "https://phonedriver.dev"
-  version "0.1.4"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.4/phonedriver-aarch64-apple-darwin.tar.gz"
-      sha256 "e0f4377edaf8d2cb057481e659b28783ac620c1dbc5015dfc537fa549ab22068"
+      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.5/phonedriver-aarch64-apple-darwin.tar.gz"
+      sha256 "07b20ccbc6bcc82d3a3ae3b85b1789f05b429cdac9465fe321ff473992aebf11"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.4/phonedriver-x86_64-apple-darwin.tar.gz"
-      sha256 "28abeb941067fcb697961ff7df9276a9935648643df7ad65b6a13e6f345a2a1d"
+      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.5/phonedriver-x86_64-apple-darwin.tar.gz"
+      sha256 "61b83057e091bd6cab7ad81b6848280e3d5cd417ee338b2a4592f3173f1271cc"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.4/phonedriver-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6a9d275692d08a6bfc1011e990e5b4ae3b68ab05537e7f7016b2e05438d81803"
+      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.5/phonedriver-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f4db60b3f65f157af9eaece33984e65a50e000db0c26b430a71b7684665e40ce"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.4/phonedriver-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f9df78278c884b8224f8b408361ac7d133758b859927c787081806b4fda6b6c3"
+      url "https://github.com/hridaya423/phonedriver/releases/download/v0.1.5/phonedriver-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "edd903e306ba00959340b9f005626ad6037aaffd2e70206f2f78bb4e21dcf0dc"
     end
   end
   license "AGPL-3.0-only"
